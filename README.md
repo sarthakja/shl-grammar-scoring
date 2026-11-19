@@ -22,7 +22,7 @@ Results: training RMSE 0.289, speaker-grouped 5-fold CV RMSE 0.516, public leade
    .venv/Scripts/activate        # Windows; on Linux/macOS: source .venv/bin/activate
    pip install -r requirements.txt
    ```
-3. **Data** (not in this repository, ~1.3 GB): download the competition data and place it as:
+3. **Data** (not in this repository, ~1.6 GB): download the competition data and place it as:
    ```
    data/train.csv      (filename, label)
    data/test.csv       (filename; any other column is ignored)
@@ -40,4 +40,4 @@ Open `grammar_scoring.ipynb`, with the environment above as the kernel, and run 
 
 ## Figures in the report
 
-The figures in the notebook's Approach section are image files, linked by a relative path (`output_submission/figures/*.png`); the notebook writes them when it runs. They show when the notebook is opened from the repository folder (Jupyter, VS Code). Some viewers, possibly including GitHub's notebook preview, do not display images linked by a relative path; the same figures are also drawn by the code cells further down the notebook, and the image files themselves are in `output_submission/figures/`.
+The figures in the notebook's Approach section are image files, linked by a relative path (`output_submission/figures/*.png`); the notebook writes them when it runs. They show when the notebook is opened from the repository folder (Jupyter, VS Code). GitHub's notebook preview does not display images linked by a relative path; the same figures appear in the code cells' outputs, which GitHub does display. Downloading the notebook and opening it in VS Code should display the images in the Approach section too.
