@@ -2,7 +2,7 @@
 
 Predicts a 1-5 grammar score for spoken English audio clips. The report (approach, preprocessing, pipeline architecture, evaluation results, including the training RMSE) and the code are in **`grammar_scoring.ipynb`**.
 
-Results: training RMSE 0.289, speaker-grouped 5-fold CV RMSE 0.516, public leaderboard RMSE 0.3254.
+Results: training RMSE 0.289, speaker-grouped 5-fold CV RMSE 0.516, public leaderboard RMSE 0.3255.
 
 ## Files
 
