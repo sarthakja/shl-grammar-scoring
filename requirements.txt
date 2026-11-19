@@ -1,0 +1,29 @@
+# Python 3.14. Versions used for the submitted results.
+# PyTorch with CUDA 12.8 (NVIDIA GPU) comes from the PyTorch package index:
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchaudio==2.11.0+cu128
+
+transformers==5.19.0
+tokenizers==0.23.2
+huggingface_hub==1.33.0
+safetensors==0.8.0
+accelerate==1.15.0
+sentencepiece==0.2.2
+tiktoken==0.14.0
+protobuf==7.36.2
+crisperwhisper==2.0.3
+soxr==1.1.0
+librosa==1.0.0
+
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+soundfile==0.14.0
+matplotlib==3.11.2
+tqdm==4.70.1
+truststore==0.10.4
+
+# To run the notebook
+ipykernel==7.4.0

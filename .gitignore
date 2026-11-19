@@ -1,0 +1,15 @@
+# Python environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Competition data (audio, ~1.3 GB): download it separately, see README.md
+data/
+
+# Not part of the submission
+outputs/
+models/
+plan/
+*.docx
+~$*
+what_was_tried.md

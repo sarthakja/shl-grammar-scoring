@@ -1,0 +1,145 @@
+[transformers] The tokenizer you are loading from 'microsoft/deberta-v3-large' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Model: microsoft/deberta-v3-large  Training clips: 732  Test clips: 216
+Longest transcript: 226 tokens
+
+Fold 1 of 5
+Loading weights:   0%|          | 0/390 [00:00<?, ?it/s]Loading weights:  87%|████████▋ | 341/390 [00:00<00:00, 3409.26it/s]Loading weights: 100%|██████████| 390/390 [00:00<00:00, 3484.29it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-large
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  trained weights: 434.0 million
+  epoch 1: train loss 0.577, validation RMSE 0.599
+  epoch 2: train loss 0.229, validation RMSE 0.575
+  epoch 3: train loss 0.107, validation RMSE 0.562
+  epoch 4: train loss 0.041, validation RMSE 0.554
+  epoch 5: train loss 0.015, validation RMSE 0.562
+  epoch 6: train loss 0.007, validation RMSE 0.559
+
+Fold 2 of 5
+Loading weights:   0%|          | 0/390 [00:00<?, ?it/s]Loading weights: 100%|██████████| 390/390 [00:00<00:00, 4604.58it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-large
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  epoch 1: train loss 0.593, validation RMSE 0.674
+  epoch 2: train loss 0.213, validation RMSE 0.549
+  epoch 3: train loss 0.113, validation RMSE 0.659
+  epoch 4: train loss 0.043, validation RMSE 0.541
+  epoch 5: train loss 0.018, validation RMSE 0.550
+  epoch 6: train loss 0.008, validation RMSE 0.558
+
+Fold 3 of 5
+Loading weights:   0%|          | 0/390 [00:00<?, ?it/s]Loading weights: 100%|██████████| 390/390 [00:00<00:00, 4937.66it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-large
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  epoch 1: train loss 0.540, validation RMSE 0.717
+  epoch 2: train loss 0.199, validation RMSE 0.608
+  epoch 3: train loss 0.091, validation RMSE 0.633
+  epoch 4: train loss 0.044, validation RMSE 0.613
+  epoch 5: train loss 0.017, validation RMSE 0.622
+  epoch 6: train loss 0.009, validation RMSE 0.622
+
+Fold 4 of 5
+Loading weights:   0%|          | 0/390 [00:00<?, ?it/s]Loading weights: 100%|██████████| 390/390 [00:00<00:00, 4880.60it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-large
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  epoch 1: train loss 0.541, validation RMSE 0.648
+  epoch 2: train loss 0.240, validation RMSE 0.579
+  epoch 3: train loss 0.090, validation RMSE 0.591
+  epoch 4: train loss 0.038, validation RMSE 0.590
+  epoch 5: train loss 0.015, validation RMSE 0.595
+  epoch 6: train loss 0.006, validation RMSE 0.592
+
+Fold 5 of 5
+Loading weights:   0%|          | 0/390 [00:00<?, ?it/s]Loading weights: 100%|██████████| 390/390 [00:00<00:00, 4649.50it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-large
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  epoch 1: train loss 0.552, validation RMSE 0.705
+  epoch 2: train loss 0.238, validation RMSE 0.799
+  epoch 3: train loss 0.100, validation RMSE 0.597
+  epoch 4: train loss 0.039, validation RMSE 0.584
+  epoch 5: train loss 0.018, validation RMSE 0.610
+  epoch 6: train loss 0.009, validation RMSE 0.602
+
+  epoch  cv_rmse_mean  cv_rmse_std  cv_pearson_mean  cv_pearson_std  train_rmse
+     1         0.669        0.042            0.801           0.011       0.527
+     2         0.622        0.090            0.820           0.019       0.343
+     3         0.608        0.034            0.823           0.019       0.217
+     4         0.576        0.026            0.827           0.018       0.133
+     5         0.588        0.028            0.823           0.019       0.092
+     6         0.587        0.025            0.823           0.019       0.076
+
+Chosen epoch (lowest mean CV RMSE): 4
+Saved output_submission/finetune_deberta_v3_large_*.csv
